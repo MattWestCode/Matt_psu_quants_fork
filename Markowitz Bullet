@@ -1,0 +1,86 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNa9TY3PomtqDD+dQheD0eT",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/MattWestCode/Matt_psu_quants_fork/blob/investing/Markowitz%20Bullet\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "90g2Z63J_3Iz"
+      },
+      "outputs": [],
+      "source": [
+        "import random\n",
+        "import yfinance as yf\n",
+        "import pandas as pd\n",
+        "import numpy as np\n",
+        "import matplotlib.pyplot as plt\n",
+        "import matplotlib.ticker as mtick"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Maximize a portfolios return given risk\n",
+        "start_date = \"2021-11-10\"\n",
+        "end_date = \"2023-11-10\"\n",
+        "interval_time = '1d'\n",
+        "\n",
+        "AAPL = yf.downlaod('AAPL', start=start_date, end=end_date, interval=interval_time)\n",
+        "AMD = yf.downlaod('AMD', start=start_date, end=end_date, interval=interval_time)\n",
+        "\n",
+        "# Find the returns of stocks\n",
+        "\n",
+        "\n",
+        "\n",
+        "# Find the Standard Deviation and Mean of data set\n",
+        "\n",
+        "\n",
+        "\n",
+        "# Find the returns given weighting\n",
+        "\n",
+        "\n",
+        "\n",
+        "# Find the risk given the weighting\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "# Plot the markowitz bullet\n",
+        "\n",
+        "\n",
+        "\n",
+        "# Plot the Capital Market Line"
+      ],
+      "metadata": {
+        "id": "SBLB0PP7_6QP"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
